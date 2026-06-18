@@ -1,23 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <nav className="navbar">
+        <h2>AttendancePro</h2>
+        <ul>
+          <li>Home</li>
+          <li>Features</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+
+      <section className="hero">
+        <h1>Employee Attendance System</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Smart attendance management solution for modern workplaces.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <button>Get Started</button>
+      </section>
+<section className="stats">
+  <div className="stat-card">
+    <h2>500+</h2>
+    <p>Employees Managed</p>
+  </div>
+
+  <div className="stat-card">
+    <h2>99%</h2>
+    <p>Attendance Accuracy</p>
+  </div>
+
+  <div className="stat-card">
+    <h2>24/7</h2>
+    <p>System Availability</p>
+  </div>
+</section>
+
+      <footer>
+        <p>© 2026 Employee Attendance System</p>
+      </footer>
     </div>
   );
 }
