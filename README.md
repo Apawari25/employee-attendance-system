@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,51 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Employee Attendance System
+
+## Overview
+Employee Attendance System is a React JS based web application designed to manage and track employee attendance efficiently. The application provides a modern and user-friendly interface for attendance monitoring.
+
+## Features
+- Employee Check-In / Check-Out
+- Attendance Reports
+- Leave Management
+- Employee Statistics Dashboard
+- Responsive Design
+- Modern User Interface
+
+## Technologies Used
+- React JS
+- JavaScript
+- HTML5
+- CSS3
+
+## Installation
+
+1. Clone the repository
+
+git clone <repository-link>
+
+2. Navigate to project folder
+
+cd employee-attendance-system
+
+3. Install dependencies
+
+npm install
+
+4. Run application
+
+npm start
+
+## Future Enhancements
+- Employee Login System
+- Database Integration
+- Attendance Analytics
+- Admin Dashboard
+- Real-Time Notifications
+
+## Author
+Prajakta Nawale
+>>>>>>> 9128aaa993376def582f3d925312825bcad6e234
